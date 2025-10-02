@@ -3388,7 +3388,7 @@ int32_t st1vafe3bx_wakeup_config_get(const stmdev_ctx_t *ctx,
                              (uint8_t *)&wup_dur_ext, 1);
   ret += st1vafe3bx_read_reg(ctx, ST1VAFE3BX_INTERRUPT_CFG,
                              (uint8_t *)&int_cfg, 1);
-  ret += st1vafe3bx_write_reg(ctx, ST1VAFE3BX_CTRL4, (uint8_t *)&ctrl4, 1);
+  ret += st1vafe3bx_read_reg(ctx, ST1VAFE3BX_CTRL4, (uint8_t *)&ctrl4, 1);
 
   if (ret == 0)
   {
