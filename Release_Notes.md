@@ -82,7 +82,7 @@ This directory contains the ST1VAFE3BX component drivers.
 
 </div>
 
-<input type="checkbox" id="collapse-section5" checked aria-hidden="true">
+<input type="checkbox" id="collapse-section5" aria-hidden="true">
 <label for="collapse-section5" aria-hidden="true">V2.2.0 / 07-Jul-2025</label>
 <div>
 
@@ -90,6 +90,23 @@ This directory contains the ST1VAFE3BX component drivers.
 
 - Fix driver formatting options
 - Added pointer to private data in stmdev_ctx_t
+
+##
+
+</div>
+
+<input type="checkbox" id="collapse-section6" checked aria-hidden="true">
+<label for="collapse-section6" aria-hidden="true">V2.3.0 / 07-Oct-2025</label>
+<div>
+
+## Main changes
+
+- Added checks before writes and membank setting
+- Changed a wrong write into a read in wakeup_config_get
+- Fix code style in mode_set and removed a write in emb_fsm_get
+- Update the 'st1vafe3bx_mode_set()' function
+- Fix High Performance mode selection
+- Adding CODE_OF_CONDUCT.md and SECURITY.md
 
 ##
 
